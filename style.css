@@ -1,0 +1,26 @@
+body {
+background-color: aqua;
+}
+h1{
+    text-align: center;
+}
+.profile-picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    img {
+        border-radius: 50%;
+    }
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+a:hover{
+    color: blue;
+    font-size: 32px;
+}
